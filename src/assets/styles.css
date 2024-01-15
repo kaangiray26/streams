@@ -1,0 +1,50 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+html {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    background-color: #1e1e1e;
+    color: var(--bs-light);
+}
+
+#app {
+    height: 100vh;
+    width: 100vw;
+    overflow: scroll;
+}
+
+a {
+    color: var(--bs-red);
+    font-weight: bold;
+}
+
+small {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+video {
+    display: flex !important;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: var(--bs-dark);
+    border-radius: 0.5rem;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.video-js {
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 16/9 !important;
+    object-fit: cover !important;
+    border-radius: 0.5rem;
+}
