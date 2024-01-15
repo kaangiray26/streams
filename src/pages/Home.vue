@@ -78,7 +78,6 @@ async function get_results() {
 }
 
 async function open_stream(result) {
-    store.stream = result.item.url;
     router.push("/stream/" + btoa(result.item.url));
 }
 
