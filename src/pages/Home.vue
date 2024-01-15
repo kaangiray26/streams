@@ -20,6 +20,9 @@
                 </div>
             </li>
         </ul>
+        <div class="footer">
+            <p>All streams are taken from <a href="https://github.com/iptv-org/iptv">iptv-org/iptv</a></p>
+        </div>
     </div>
 </template>
 
