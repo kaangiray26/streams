@@ -115,11 +115,13 @@ const typing = debounce(async (event) => {
 async function get_results() {
     if (!query.value.length) {
         results.value = [];
+        available.value = [];
         loading.value = false;
         return;
     }
 
     // Search for matching streams
+    available.value = [];
     results.value = fuse.value.search(query.value);
 
     // Check top 10 results for availability
